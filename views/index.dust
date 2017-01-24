@@ -4,7 +4,7 @@
 	<title>upload</title>
 </head>
 <body>
-<form action="/app/save" method="post" accept-charset="utf-8">
+<form action="/app/save" method="post"  enctype="multipart/form-data">
 	Username<input type="text" name="username"><br/>
 	Email<input type="text" name="email"><br/>
 	Profile<input type="file" name="profile"><br/>
